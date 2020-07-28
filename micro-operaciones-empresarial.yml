@@ -1,5 +1,5 @@
 app:
-  db: micro-operaciones-personal
+  db: micro-operaciones-empresarial
 server:
   port: 8082
 spring:
@@ -9,7 +9,7 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: micro-operaciones-personal
+      database: micro-operaciones-empresarial
 eureka:
   client:
     service-url:
