@@ -27,10 +27,10 @@ resilience4j:
             failureRateThreshold: 20
             eventConsumerBufferSize: 10
       instances:
-        micro-crud:
+        ms1:
           base-config: default
   timelimiter:
     instances:
-      micro-crud:
+      ms1:
         timeout-duration: 2s
         cancel-running-future: true
